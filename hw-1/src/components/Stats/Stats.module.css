@@ -1,0 +1,95 @@
+.section {
+  width: 260px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #475965;
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  height: 60px;
+  margin: 0;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+.itemRed {
+  composes: item;
+  background-color: red;
+}
+.itemBlue {
+  composes: item;
+  background-color: blue;
+}
+
+.itemOrangered {
+  composes: item;
+  background-color: orangered;
+}
+.itemTeal {
+  composes: item;
+  background-color: teal;
+}
+.itemBlueviolet {
+  composes: item;
+  background-color: blueviolet;
+}
+.itemGreen {
+  composes: item;
+  background-color: green;
+}
+
+.itemFirebrick {
+  composes: item;
+  background-color: firebrick;
+}
+.itemRoyalblue {
+  composes: item;
+  background-color: royalblue;
+}
+.itemCornflowerblue {
+  composes: item;
+  background-color: cornflowerblue;
+}
+.itemCrimson {
+  composes: item;
+  background-color: crimson;
+}
+.itemChocolate {
+  composes: item;
+  background-color: chocolate;
+}
+.label {
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: 'Proxima Nova';
+  font-weight: 300;
+}
+.percentage {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: 'Proxima Nova';
+}
